@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 <body>
-  <table border="4"  width="1300px">
+  <section>
+    
+    <h2>Images, Audio, and Video</h2>
+    
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdo9QciLVOIb1a8bkmYzWj0annStBIc_EV3A&usqp=CAU" alt="Cute Kitten">
+    
+    <audio controls>
+      <source src="Whushangclan.mp3" type="audio/mp3">
+     
+    </audio>
+    
+    <video width="400" controls>
+      <source src="dance.mp4" type="video/mp4">
+      
+    </video>
+    <br><hr><br>
+ <h2>Iframe</h2>
+ <iframe width="100%" height="200" scrolling="no" src="https://soundcloud.com/andrew-georgy/cheb-khaled-cest-la-vie?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" frameborder="1"></iframe>
+
+ <iframe width="100%" height="100%" scrolling="no" src="https://youtu.be/K7Jx8oYgbhE?si=rcsU7Gu63Ke7EYRI" frameborder="1"></iframe>
+ 
+</section>
+<hr><hr><br><hr><hr>
+<section>
+<table border="4"  width="1300px">
     <tr>
     <th align="center" colspan="6">Time Table</th>
   </tr>
@@ -50,5 +74,39 @@
         <td>  Art  </td>    
     </tr>
   </table>
+ 
+</section>
+<br><hr><br>
+<section>
+<h2>Admission Form</h2>
+
+<form action=" " method="post">
+
+  <label for="username">Username :</label>
+  <input type="text" id="name" name="name" placeholder="Enter your username" required><br>
+
+
+<label for="roll">Roll number :</label>
+  <input type="int" id="roll" name="roll" placeholder="Eg.123456789" required><br>
+
+<label for="password">Password:</label><br>
+            <input type="password" id="password" placeholder="password" name="password"><br>
+
+ <label for="address">Address:</label><br>
+            <input type="text" id="address" name="address"><br>
+
+  <label for="email">Email :</label>
+  <input type="email" id="email" name="email" required><br>
+
+  <label for="Program">Select a Program :</label>
+  <select id="program" name="program">
+    <option value="btech">Btech</option>
+    <option value="bba">BBA</option>
+    <option value="bca">BCA</option>
+  </select><br>
+
+  <input type="submit" value="Submit">
+</form>
+</section>
 </body>
 </html>
